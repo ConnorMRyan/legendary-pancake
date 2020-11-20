@@ -15,35 +15,24 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:project-1" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61da52e4-906b-4826-8dc6-722b0f24a2c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-1-ConnorMRyan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-1-ConnorMRyan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-1-ConnorMRyan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/main/java/com/revature/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/main/java/com/revature/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/main/java/com/revature/utils/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/main/java/com/revature/utils/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/main/java/com/revature/utils/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/main/java/com/revature/utils/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/test/java/com/revature/UserTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/test/java/com/revature/UserTests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/target/classes/com/revature/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/target/classes/com/revature/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/target/m2e-wtp/web-resources/META-INF/maven/com.revature/project-1/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/target/m2e-wtp/web-resources/META-INF/maven/com.revature/project-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/target/test-classes/com/revature/DriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/target/test-classes/com/revature/DriverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,22 +59,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project-1" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +80,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605458873653</updated>
-      <workItem from="1605458874725" duration="106000" />
+      <workItem from="1605458874725" duration="1131000" />
+      <workItem from="1605460755966" duration="551000" />
+      <workItem from="1605461502676" duration="284000" />
+      <workItem from="1605461985123" duration="28000" />
+      <workItem from="1605462027228" duration="35000" />
+      <workItem from="1605557092320" duration="10000" />
     </task>
     <servers />
   </component>
@@ -112,11 +102,46 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1293" y="620" key="#Notifications" timestamp="1605458980410">
       <screen x="0" y="25" width="3008" height="1573" />
     </state>
     <state x="1293" y="620" key="#Notifications/0.25.3008.1573@0.25.3008.1573" timestamp="1605458980410" />
+    <state x="708" y="339" width="1426" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605461529101">
+      <screen x="0" y="25" width="2048" height="1161" />
+    </state>
+    <state x="708" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1161@0.25.2048.1161" timestamp="1605461529101" />
+    <state x="1040" y="451" width="1426" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3008.1573@0.25.3008.1573" timestamp="1605459865453" />
+    <state x="1490" y="598" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605459833526">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state x="1490" y="598" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.3008.1573@0.25.3008.1573" timestamp="1605459833526" />
+    <state width="1259" height="380" key="GridCell.Tab.0.bottom" timestamp="1605460007660">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state width="1259" height="380" key="GridCell.Tab.0.bottom/0.25.3008.1573@0.25.3008.1573" timestamp="1605460007660" />
+    <state width="1259" height="380" key="GridCell.Tab.0.center" timestamp="1605460007659">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state width="1259" height="380" key="GridCell.Tab.0.center/0.25.3008.1573@0.25.3008.1573" timestamp="1605460007659" />
+    <state width="1259" height="380" key="GridCell.Tab.0.left" timestamp="1605460007659">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state width="1259" height="380" key="GridCell.Tab.0.left/0.25.3008.1573@0.25.3008.1573" timestamp="1605460007659" />
+    <state width="1259" height="380" key="GridCell.Tab.0.right" timestamp="1605460007660">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state width="1259" height="380" key="GridCell.Tab.0.right/0.25.3008.1573@0.25.3008.1573" timestamp="1605460007660" />
+    <state x="724" y="280" key="SettingsEditor" timestamp="1605461703941">
+      <screen x="0" y="25" width="2048" height="1161" />
+    </state>
+    <state x="724" y="280" key="SettingsEditor/0.25.2048.1161@0.25.2048.1161" timestamp="1605461703941" />
+    <state x="1064" y="371" key="SettingsEditor/0.25.3008.1573@0.25.3008.1573" timestamp="1605459450596" />
+    <state x="1377" y="710" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605459566193">
+      <screen x="0" y="25" width="3008" height="1573" />
+    </state>
+    <state x="1377" y="710" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.3008.1573@0.25.3008.1573" timestamp="1605459566193" />
   </component>
 </project>
