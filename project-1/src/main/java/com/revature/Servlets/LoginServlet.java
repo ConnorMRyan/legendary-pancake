@@ -18,6 +18,7 @@ public class LoginServlet extends HttpServlet {
             String uName = request.getParameter("inputEmail");
             String password = request.getParameter("inputPassword");
             pw.println(uName + password);
+            String test = "Testing jenkins one last time";
         }
 
     }
