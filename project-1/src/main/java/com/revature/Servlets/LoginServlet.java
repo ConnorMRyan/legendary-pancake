@@ -10,10 +10,14 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "LoginServlet",urlPatterns = "/index")
 public class LoginServlet extends HttpServlet {
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if(request.getParameter("formCheck-1") != null){
+            response.setContentType("text/html");
             PrintWriter pw = response.getWriter();
-            pw.write("55");
+            String uName = request.getParameter("inputEmail");
+            String password = request.getParameter("inputPassword");
+            pw.println(uName + password);
         }
 
     }
