@@ -12,14 +12,11 @@ import java.io.PrintWriter;
 public class LoginServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(request.getParameter("formCheck-1") != null){
             response.setContentType("text/html");
             PrintWriter pw = response.getWriter();
             String uName = request.getParameter("inputEmail");
             String password = request.getParameter("inputPassword");
-            pw.println(uName + password);
-            String test = "Testing jenkins another 1010 time";
-        }
+
 
     }
 
