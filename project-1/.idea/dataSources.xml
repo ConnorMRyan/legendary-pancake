@@ -9,7 +9,13 @@
 
 C:/Users/mynam/IdeaProjects/legendary-pancake/project-1/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com/</jdbc-url>
+      <jdbc-url>jdbc:postgresql://RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com" uuid="7b32fe73-37ff-4814-82b5-2b546cf7eee8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com/postgres</jdbc-url>
     </data-source>
   </component>
 </project>

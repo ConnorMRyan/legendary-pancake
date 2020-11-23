@@ -14,7 +14,7 @@ public class Driver {
 
 	public static void main(String[] args) throws IOException {
 		//Employee employee = new Employee("connor","ryan","cats","admin","catbutt@butts",3);
-		Employee connor = EmployeeDAO.getEmployeeFromUsername("cats");
-		System.out.println(connor.toString());
+		Employee connor = EmployeeDAO.getEmployeeFromUsername("testCat");
+
 	}
 }

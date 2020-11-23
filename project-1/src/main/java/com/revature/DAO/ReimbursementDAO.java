@@ -1,5 +1,6 @@
 package com.revature.DAO;
 
+import com.revature.models.Employee;
 import com.revature.models.Reimbursement;
 import com.revature.utils.HibernateUtil;
 import org.hibernate.Session;
@@ -30,7 +31,7 @@ public class ReimbursementDAO {
         int id = reimbursement.getId();
         reimbursement.setStatus(status);
         reimbursement.setResolverID(resolverID);
-        ses.createQuery("update Reimbursement ers set ers.resolved = current_timestamp where ers.id = :id").setParameter("id",id);
+        ses.createQuery("update Reimbursement ers set ers.resolved = current_timestamp where ers.id = :id", Reimbursement.class).setParameter("id",id);
         ses.getTransaction().commit();
         HibernateUtil.closeSession();
 
