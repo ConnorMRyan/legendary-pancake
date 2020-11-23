@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="RevatureStuff" uuid="18cb7043-b911-496f-85dd-cb3f69a7b2eb">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="dc8e8c22-08c3-4092-821e-1c17cd360c5e">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/mynam/IdeaProjects/legendary-pancake/project-1/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com:5432/</jdbc-url>
+      <jdbc-url>jdbc:postgresql://RevatureStuff.cwjuj1sb1gxi.us-east-2.rds.amazonaws.com/</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -5,6 +5,8 @@ import com.revature.utils.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Predicate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +28,13 @@ public  class EmployeeDAO {
     static public Employee getEmployeeFromID(int id){
         Session ses = HibernateUtil.getSession();
         return ses.load(Employee.class,id);
+    }
+
+    static public Employee getEmployeeFromUsername(String user){
+        Session ses = HibernateUtil.getSession();
+        String sqlQuery = "Select ID from "
+        criteriaBuilder.like()
+
     }
 
     static public void update(Employee emp){

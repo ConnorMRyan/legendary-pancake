@@ -32,7 +32,7 @@
             Bushdid911
         </property>
 
-
+        <property name="hibernate.hbm2ddl.auto" >update</property>
         <mapping class="com.revature.models.Employee"/>
         <mapping class="com.revature.models.Reimbursement"/>
     </session-factory>

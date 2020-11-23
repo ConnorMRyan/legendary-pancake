@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class EmployeeTest {
     Employee setTester = new Employee();
-    Employee getTester = new Employee(1,"testUser","testPass","test","user","testEmail",4);
+    Employee getTester = new Employee("testUser","testPass","test","user","testEmail",4);
 
     @Test
     public void testEquals() {
