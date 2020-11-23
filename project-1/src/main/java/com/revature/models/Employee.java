@@ -1,12 +1,14 @@
 package com.revature.models;
 
+import com.revature.utils.PasswordEncoder;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 @Entity
 @Table(name = "ers_users",schema = "users")
 public class Employee implements Serializable {
-    @Id @GeneratedValue()
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ers_users_id")
     private int id;
     @Column(name = "user_first_name")
@@ -22,8 +24,7 @@ public class Employee implements Serializable {
     @Column(name = "user_role_id")
     private int userRole;
 
-    public Employee(int id, String firstName, String lastName, String username, String password, String email, int userRole) {
-        this.id = id;
+    public Employee(String firstName, String lastName, String username, String password, String email, int userRole) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.username = username;

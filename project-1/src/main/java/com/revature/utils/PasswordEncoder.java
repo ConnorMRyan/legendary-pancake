@@ -21,6 +21,5 @@ public class PasswordEncoder {
         boolean confirm = encoder.verify(hashedPass, passToCheck);
         encoder.wipeArray(passToCheck);
         return confirm;
-
     }
 }
