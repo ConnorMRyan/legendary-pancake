@@ -35,8 +35,6 @@ public class Employee implements Serializable {
 
     public Employee() {}
 
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

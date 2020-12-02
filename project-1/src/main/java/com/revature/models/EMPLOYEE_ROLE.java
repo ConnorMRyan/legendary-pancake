@@ -2,7 +2,9 @@ package com.revature.models;
 
  enum EMPLOYEE_ROLE {
 
-     EMPLOYEE(1,"Employee"),MANAGER(2,"Manager"),ADMIN(3,"Admin");
+     EMPLOYEE(1,"Employee"),
+     MANAGER(2,"Manager"),
+     ADMIN(3,"Admin");
 
      private EMPLOYEE_ROLE(int ID,String roleName){
         this.ID = ID;

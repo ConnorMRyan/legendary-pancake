@@ -35,10 +35,11 @@ public  class EmployeeDAO {
 
     static public Employee getEmployeeFromUsername(String user){
         Session ses = HibernateUtil.getSession();
-        String sql = String.format("From Employee e where e.username = %s",user);
-        Query query = ses.createSQLQuery(sql);
+        String sql = String.format("from Employee where username = '%s'",user);
+        Query query = ses.createQuery(sql,Employee.class);
+        if(query.getResultList().size() > 0){
         return (Employee) query.getResultList().get(0);
-    }
+    }else{return null;}}
 
     static public void update(Employee emp){
         Session ses = HibernateUtil.getSession();

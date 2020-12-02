@@ -16,19 +16,6 @@ public class EmployeeTest {
     }
 
     @Test
-    public void getId() {
-        int assertedID = 1;
-        assert(getTester.getId() == assertedID);
-    }
-
-    @Test
-    public void setId() {
-        int assertedID = 1;
-        setTester.setId(1);
-        assert(setTester.getId() == assertedID);
-    }
-
-    @Test
     public void getFirstName() {
         String assetedName = "testUser";
         assert(assetedName.equals(getTester.getFirstName()));
