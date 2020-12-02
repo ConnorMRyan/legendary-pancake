@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
- public class ReimbServlet extends HttpServlet {
+ public class reimbServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ArrayList<Reimbursement> reimbursements = new ArrayList<>();
         reimbursements = (ArrayList<Reimbursement>) ReimbursementDAO.getReimbursments();

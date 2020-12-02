@@ -1,4 +1,7 @@
+<jsp:useBean id="reimb" scope="request" class="com.revature.models.Reimbursement"/>
+<%@ page import="com.revature.models.Reimbursement" %>
 <html>
+
 
 <head>
     <meta charset="utf-8" />
@@ -7,11 +10,11 @@
 </head>
 
 <body>
+
 <div class="datagrid">
     <table class="table">
         <thead>
         <tr>
-            <th>Date</th>
             <th>Amount</th>
             <th>Description</th>
             <th>Author</th>
@@ -20,10 +23,13 @@
         </thead>
         <tbody>
         <tr>
-            <td>Cell 1</td>
-            <td>Cell 2</td>
-            <td>Text</td>
-            <td>Text</td>
+            <jsp:useBean id="reimbursements" scope="request" type="java.util.List"/>
+
+            <td>${reimb.amount}</td>
+            <td>${reimb.description}</td>
+            <td>${reimb.authorID}</td>
+            <td>${reimb.status}</td>
+
         </tr>
         </tbody>
         <tfoot>
