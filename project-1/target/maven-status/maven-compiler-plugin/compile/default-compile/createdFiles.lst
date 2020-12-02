@@ -2,11 +2,16 @@ com/revature/models/ReimbursementStatus.class
 com/revature/DAO/EmployeeDAO.class
 com/revature/Driver.class
 com/revature/utils/ImageConvert.class
+com/revature/models/EMPLOYEE_ROLE.class
+com/revature/Servlets/reimbursementsServlet.class
 com/revature/utils/PasswordEncoder.class
 com/revature/models/Reimbursement.class
 com/revature/DAO/ReimbursementDAO.class
+com/revature/Servlets/ReimbServlet.class
 com/revature/models/Employee.class
 com/revature/models/ReimbursementType.class
 com/revature/utils/DatabaseConnection.class
+com/revature/Servlets/LoginServlet.class
 com/revature/utils/Authentication.class
+com/revature/utils/JsonBuilder.class
 com/revature/utils/HibernateUtil.class

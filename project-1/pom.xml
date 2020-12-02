@@ -22,42 +22,77 @@
 					<configuration>
 					</configuration>
 				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>exec-maven-plugin</artifactId>
-					<version>1.5.0</version>
-					<executions>
-						<execution>
-							<id>exec-npm-install</id>
-							<phase>generate-sources</phase>
-							<configuration>
-								<workingDirectory>${project.basedir}/src/main/UI</workingDirectory>
-								<executable>npm</executable>
-								<arguments>
-									<argument>install</argument>
-								</arguments>
-							</configuration>
-							<goals>
-								<goal>exec</goal>
-							</goals>
-						</execution>
-						<execution>
-							<id>exec-npm-ng-build</id>
-							<phase>generate-sources</phase>
-							<configuration>
-								<workingDirectory>${project.basedir}/src/main/UI</workingDirectory>
-								<executable>ng</executable>
-								<arguments>
-									<argument>build</argument>
-									<argument>--base-href=/UI/ng/</argument>
-								</arguments>
-							</configuration>
-							<goals>
-								<goal>exec</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
+<!--			&lt;!&ndash; Plugin to execute command  "npm install" and "npm run build" inside /angular directory &ndash;&gt;-->
+<!--			<plugin>-->
+<!--				<groupId>com.github.eirslett</groupId>-->
+<!--				<artifactId>frontend-maven-plugin</artifactId>-->
+<!--				<version>1.0</version>-->
+<!--				<configuration>-->
+<!--					<workingDirectory>UI</workingDirectory>-->
+<!--					<installDirectory>temp</installDirectory>-->
+<!--				</configuration>-->
+<!--				<executions>-->
+<!--					&lt;!&ndash; It will install nodejs and npm &ndash;&gt;-->
+<!--					<execution>-->
+<!--						<id>install node and npm</id>-->
+<!--						<goals>-->
+<!--							<goal>install-node-and-npm</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<nodeVersion>v14.15.1</nodeVersion>-->
+<!--							<npmVersion>6.14.9</npmVersion>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+
+<!--					&lt;!&ndash; It will execute command "npm install" inside "/angular" directory &ndash;&gt;-->
+<!--					<execution>-->
+<!--						<id>npm install</id>-->
+<!--						<goals>-->
+<!--							<goal>npm</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<arguments>install</arguments>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+
+<!--					&lt;!&ndash; It will execute command "npm build" inside "/angular" directory to clean and create "/dist" directory&ndash;&gt;-->
+<!--					<execution>-->
+<!--						<id>npm build</id>-->
+<!--						<goals>-->
+<!--							<goal>npm</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<arguments>run build</arguments>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
+
+<!--			&lt;!&ndash; Plugin to copy the content of /angular/dist/ directory to output directory (ie/ /target/transactionManager-1.0/) &ndash;&gt;-->
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-resources-plugin</artifactId>-->
+<!--				<version>3.1.0</version>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<id>default-copy-resources</id>-->
+<!--						<phase>process-resources</phase>-->
+<!--						<goals>-->
+<!--							<goal>copy-resources</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<overwrite>true</overwrite>-->
+<!--							<outputDirectory>/Users/connor/Desktop/pokeMaven/project-1-ConnorMRyan/project-1/src/main/webapp</outputDirectory>-->
+<!--							<resources>-->
+<!--								<resource>-->
+<!--									<directory>${project.basedir}/UI/dist</directory>-->
+<!--								</resource>-->
+<!--							</resources>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
+
 			</plugins>
 	</build>
 	<properties>
@@ -111,7 +146,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>RELEASE</version>
+			<version>5.7.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -120,6 +155,13 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.4.24.Final</version>
+		</dependency>
+
+		<!-- https://github.com/google/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
 		</dependency>
 
 	</dependencies>

@@ -18,13 +18,13 @@ public class ImageConvert {
         }
     }
 
-    public static void arrayToImage(byte[] image){
+    public static BufferedImage arrayToImage(byte[] image){
         try {
             ByteArrayInputStream bis = new ByteArrayInputStream(image);
-            BufferedImage newImage = ImageIO.read(bis);
-            ImageIO.write(newImage, "jpg", new File("src/main/resources/Images/output.jpg"));
+            return  ImageIO.read(bis);
         } catch (IOException e) {
             e.printStackTrace();
+            return null;
         }
     }
 
